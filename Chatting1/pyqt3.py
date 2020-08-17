@@ -9,6 +9,8 @@ STATE_CONNECTED = 0
 STATE_DISCONNECTED = 1
 DEFAULTPORTNUMBER = 43210
 
+
+
 class ConnectDialog(QDialog):
     def __init__(self, parent=None):
         super(ConnectDialog, self).__init__(parent)
